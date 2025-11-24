@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'collegedata',
         'USER': 'akshay',
-        'PASSWORD': 'StrongPass123!',   # same password you used for mysql -u akshay -p
+        'PASSWORD': 'StrongPass123!',  # same one you used for mysql -u akshay -p
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
