@@ -76,9 +76,15 @@ WSGI_APPLICATION = 'placementportal.wsgi.application'
 
 DATABASES = {
     'default': {
-        'your database configurations'
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'collegedata',   # or whatever your DB name is
+        'USER': 'root',
+        'PASSWORD': 'Col@123',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
+
 
 
 # Password validation
