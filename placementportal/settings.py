@@ -79,11 +79,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'collegedata',
         'USER': 'akshay',
-        'PASSWORD': 'StrongPass123!',  # same as in CREATE USER
+        'PASSWORD': 'StrongPass123!',   # same password you used for mysql -u akshay -p
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
